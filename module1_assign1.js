@@ -1,13 +1,13 @@
 
 //assignment 1: 
 
-function multiplicationTable()
+function multiplicationTable(n)
 {
  for ( var i=1;i<=10;i++)
  {
-    var j= "6 x " + i + " = " + 6*i;
+    var j= n +" x " + i + " = " + n*i;
     console.log(j);
  }   
 }
 
-multiplicationTable();
+multiplicationTable(6);
